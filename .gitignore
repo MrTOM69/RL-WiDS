@@ -1,15 +1,21 @@
-.DS_Store
-.gitignore
-.vscode
-# Virtual environments
+# ===== Python virtual environments =====
 venv/
 .venv/
+env/
 
-# Python cache
+# ===== Python cache / compiled files =====
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Jupyter
+# ===== Jupyter Notebook =====
 .ipynb_checkpoints/
 
+# ===== VS Code =====
+.vscode/
+
+# ===== OS / editor junk =====
+.DS_Store
+Thumbs.db
 
